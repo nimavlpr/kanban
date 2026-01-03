@@ -1,0 +1,37 @@
+.board-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-header {
+  height: 60px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgba(0,0,0,0.15);
+}
+
+.board-canvas {
+  flex-grow: 1;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 26px 20px;
+  white-space: nowrap;
+}
+
+.add-list{
+  width: 100%;
+  background: rgba(255,255,255,0.2);
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}

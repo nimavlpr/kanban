@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kanban - Interview Project
 
-## Getting Started
+A fully functional Kanban built with **Next.js 14**, **TypeScript**, and **Zustand**. This project demonstrates clean architecture, drag-and-drop functionality, and local state persistence without a backend.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Drag & Drop:** Smooth drag and drop for both Cards and Lists (using `@hello-pangea/dnd`).
+- **Data Persistence:** All changes are saved automatically to `localStorage`.
+- **CRUD Operations:**
+    - Create, Read, Update, Delete Lists.
+    - Create, Read, Update Cards.
+    - "Delete All Cards" in a list feature.
+- **Interactive UI:**
+    - Inline editing for titles (Lists & Board).
+    - Modal for card details and comments.
+    - Custom context menus for list actions.
+- **Tech Stack:**
+    - Next.js (App Router)
+    - TypeScript (Strict typing)
+    - SCSS (Modular architecture with mixins/variables)
+    - Zustand (State Management)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Clone the repository:**
+    ```bash
+    git clone <YOUR_REPO_URL>
+    cd kanban
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project follows the **SOLID** principles and **Separation of Concerns**:
 
-## Deploy on Vercel
+- `/src/components`: Reusable UI components (Board, List, Card, etc.).
+- `/src/store`: State management logic (Zustand store with actions).
+- `/src/styles`: SCSS partials using 7-1 pattern architecture.
+- `/src/types`: TypeScript interfaces and types.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Styling is done purely with **SCSS** (no Tailwind/Bootstrap) as per requirements.
+- Uses **Variables** for consistency.
+- Uses **Mixins** for reusable styles.
+- Uses **BEM**-like naming convention.
+
+---
+Built with ❤️ for the frontend interview task.
