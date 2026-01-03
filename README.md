@@ -24,7 +24,7 @@ A fully functional Kanban built with **Next.js 14**, **TypeScript**, and **Zusta
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPO_URL>
+    git clone https://github.com/nimavlpr/kanban.git
     cd kanban
     ```
 
