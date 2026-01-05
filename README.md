@@ -1,6 +1,6 @@
-# Kanban - Interview Project
+# Modern Kanban Board
 
-A fully functional Kanban built with **Next.js 14**, **TypeScript**, and **Zustand**. This project demonstrates clean architecture, drag-and-drop functionality, and local state persistence without a backend.
+A lightweight, fully functional Kanban board built with **Next.js 14**, **TypeScript**, and **Zustand**. This project demonstrates clean architecture, drag-and-drop functionality, and local state persistence without relying on heavy UI libraries.
 
 ## 🚀 Features
 
@@ -24,7 +24,7 @@ A fully functional Kanban built with **Next.js 14**, **TypeScript**, and **Zusta
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/nimavlpr/kanban.git
+    git clone [https://github.com/nimavlpr/kanban.git](https://github.com/nimavlpr/kanban.git)
     cd kanban
     ```
 
@@ -51,10 +51,10 @@ The project follows the **SOLID** principles and **Separation of Concerns**:
 
 ## 🎨 Styling
 
-Styling is done purely with **SCSS** (no Tailwind/Bootstrap) as per requirements.
+Styling is done purely with **SCSS** (no Tailwind/Bootstrap) to demonstrate a custom, lightweight, and modular design architecture.
 - Uses **Variables** for consistency.
 - Uses **Mixins** for reusable styles.
 - Uses **BEM**-like naming convention.
 
 ---
-Built with ❤️ for the frontend interview task.
+Built with ❤️ using Next.js.
