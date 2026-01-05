@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const INITIAL_DATA: BoardData = {
     tasks: {
-        'task-1': { id: 'task-1', content: 'Create interview Kanban', comments: [] },
+        'task-1': { id: 'task-1', content: 'Create Kanban', comments: [] },
         'task-2': { id: 'task-2', content: 'Review Drag & Drop', comments: [] },
         'task-3': { id: 'task-3', content: 'Set up Next.js project', comments: [] },
     },
